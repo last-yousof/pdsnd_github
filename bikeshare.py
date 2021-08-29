@@ -3,12 +3,15 @@ import pandas as pd
 import numpy as np
 import csv
 
+# List of cities
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# List of months
 MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 
+# List of weekdays
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
 def get_filters():
